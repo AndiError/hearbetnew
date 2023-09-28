@@ -393,7 +393,7 @@
 .description {
   flex-direction: column;
   justify-content: flex-start;
-  padding: 15px 0 0;
+  padding: 29px 0 0;
   gap: 77px;
   font-size: var(--font-size-6xl);
 }
@@ -675,7 +675,7 @@
   overflow: hidden;
   flex-shrink: 0;
   padding: 55px 0;
-  font-size: 120px;
+  font-size: 100px;
 }
 .div6 {
   position: relative;
@@ -922,4 +922,17 @@
     padding: var(--padding-21xl) var(--padding-xl);
     box-sizing: border-box;
   }
+  .exercises-link {
+  /* Add your link styling here */
+  color: white !important; 
+  text-decoration: none !important; /* Remove the default underline */
+  /* Add any other link styles you want */
+}
+a {
+  color: #FFFFFF !important; /* Set your desired link color (white in this case) */
+  text-decoration: none !important; /* Remove underlines */
+}
+
+a:hover {
+  color: #938e8e; /* Set the color when hovering (red in this case) */
 }
